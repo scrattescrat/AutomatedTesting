@@ -1,0 +1,18 @@
+Infered JSON Schema
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "cod": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "cod",
+    "message"
+  ]
+}
